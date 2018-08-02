@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Photo Site</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
@@ -12,7 +13,7 @@
 <body>
     <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Logo Here</a>
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Gregory Cusick"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -61,10 +62,12 @@
                         <a class="nav-link disabled" href="#">Disabled</a>
                     </li>
                     </ul>
+                    <!--
                     <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                     </form>
+                    -->
                 </div>
             </nav> 
             <h1>Bucks, Herts, Berks and UK</h1>       
@@ -74,23 +77,26 @@
         <p>If you are looking for a wedding photographer in Bucks, Herts, Berks, or anywhere in the UK, and if beautiful images are important to you, choosing me as your wedding photographer will ensure that your special day will be captured as exactly that, special.</p>    
     </section>
     <section>
-        <div>
-            <img src="img/wedding-photographer-bucks.jpg" alt="Wedding Photography">
-            <h3>Wedding Photography</h3>
-            <p>Wedding photography at its very best. Gregory Cusick photography produces the finest images, albums, prints and more for your most treasured day.</p>
+        <div class="row">
+            <div class="col">
+                <img src="img/wedding-photographer-bucks.jpg" alt="Wedding Photography">
+                <h3>Wedding Photography</h3>
+                <p>Wedding photography at its very best. Gregory Cusick photography produces the finest images, albums, prints and more for your most treasured day.</p>
+            </div>
+        
+            <div class="col">
+                <img src="img/buckinghamshire-engagement-photographer.jpg" alt="Engagements">
+                <h3>Engagements</h3>
+                <p>Engagement pictures to beautifully compliment your wedding day imagery and document your story from the beginning.</p>
+            </div>
+        
+            <div class="col">
+                <img src="img/buckinghamshire-family-photographer-ME1.jpg" alt="Family Photography">
+                <h3>Family Photography</h3>
+                <p>Stunning pictures to preserve the most treasured years of your family's lives.</p>
+            </div>
         </div>
-    
-        <div>
-            <img src="img/buckinghamshire-engagement-photographer.jpg" alt="Engagements">
-            <h3>Engagements</h3>
-            <p>Engagement pictures to beautifully compliment your wedding day imagery and document your story from the beginning.</p>
-        </div>
-    
-        <div>
-            <img src="img/buckinghamshire-family-photographer-ME1.jpg" alt="Family Photography">
-            <h3>Family Photography</h3>
-            <p>Stunning pictures to preserve the most treasured years of your family's lives.</p>
-        </div>
+
     </section>    
 
     <section>
@@ -107,7 +113,7 @@
         <p>Engagement sessions are an integral part of your wedding photography and are an added feature of some of our wedding packages. They provide diversity within your imagery, where the clothing, location and even the season can be different to that of your wedding day. They are also a great way for the two of you to get used to working with your photographer and become more comfortable in front of the camera, resulting in better wedding pictures on your big day. We even offer a bespoke guestbook for the day of your wedding, filled with breathtaking photographs from your engagement session, giving you a more personal keepsake that goes far beyond an off-the-shelf guestbook. If you're engaged and looking for a wedding photographer in Buckinghamshire or anywhere in the U.K. get in touch today to find out what we can do for your wedding and engagement pictures.</p>    
     </section>
 
-    <section>
+    <section class="social-section">
         <ul>
             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
             <li><a href="#"><i class="fab fa-instagram"></i></a></li>
@@ -115,13 +121,14 @@
         </ul>
     </section>
  
-    <footer>
-        <p>00000 000000</p>
-        <p>Wedding Photography - Family Photography - Portraits</p>
-        <p>Buckinghamshire and all over the UK</p>
-        <p>Privacy Policy</p>                        
+    <footer class="footer">
+        <ul>
+            <li>00000 000000</li>
+            <li>Wedding Photography - Family Photography - Portraits</li>
+            <li>Buckinghamshire and all over the UK</li>
+            <li>Privacy Policy</li>   
+        </ul>           
     </footer>
-
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
