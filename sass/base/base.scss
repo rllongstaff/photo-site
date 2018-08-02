@@ -1,6 +1,6 @@
 *,
-*::before,
-*::after {
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
@@ -11,11 +11,19 @@ html {
 }
 
 body {
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 .social-section {
     background: $color-dark-grey;
+}
+
+.social-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;  
+    margin-bottom: 0;
+    padding: 3rem 0;
 }
 
 .footer {

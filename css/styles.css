@@ -1,6 +1,6 @@
 *,
-*::before,
-*::after {
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: inherit; }
@@ -14,11 +14,19 @@ body {
 .social-section {
   background: #d6d6d6; }
 
+.social-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-bottom: 0;
+  padding: 3rem 0; }
+
 .footer {
-  background: #000;
+  background: #000000;
   padding: 6rem 0; }
 
 body {
+  color: #4a4a4a;
   font-family: 'Dosis', sans-serif;
   font-size: 1.8rem;
   letter-spacing: 0.05rem; }
@@ -29,6 +37,22 @@ h1 {
 h1, h2, h3 {
   text-align: center; }
 
+.social-list__icon {
+  background: #222222;
+  border-radius: 1.7rem;
+  height: 3.2rem;
+  line-height: 3.1rem;
+  margin: 0 0.4rem;
+  text-align: center;
+  width: 3.2rem; }
+
+.social-list__icon:hover {
+  background: rgba(34, 34, 34, 0.5); }
+
+.social-list__link:link, .social-list__link:visited {
+  color: #d6d6d6;
+  font-size: 1.7rem; }
+
 .footer {
-  color: #fff;
+  color: #ffffff;
   text-align: center; }
