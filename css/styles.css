@@ -56,3 +56,6 @@ h1, h2, h3 {
 .footer {
   color: #ffffff;
   text-align: center; }
+
+.button {
+  background: #000000; }
