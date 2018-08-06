@@ -1,5 +1,6 @@
 .button {
     display: inline-block;
+    letter-spacing: 0.2rem; 
     text-transform: uppercase; 
 
     &--white {
@@ -7,6 +8,7 @@
         border: 2px solid $color-black;
         color: $color-black; 
         font-size: 1.5rem;
+        margin-top: 3rem; 
         padding: 2rem 3.5rem; 
 
         &:hover {
@@ -20,7 +22,6 @@
         background: $color-black; 
         color: $color-white;
         font-size: 1.3rem; 
-        letter-spacing: 0.2rem; 
         padding: 1.3rem 3.2rem;
         
         &:hover {

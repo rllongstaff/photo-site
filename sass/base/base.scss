@@ -38,20 +38,28 @@ body {
 
 .section {
 
-    &--small-padding {
-
+    &--small-top-padding {
+        padding-top: 3rem;
     }
 
-    &--medium-padding {
-
+    &--small-bottom-padding {
+        padding-bottom: 3rem;
     }
 
-    &--large-padding {
-        padding: 10rem 0 3rem;
+    &--medium-top-padding {
+        padding-top: 6rem;
+    }
+
+    &--medium-top-padding {
+        padding-bottom: 6rem;
+    }
+
+    &--large-top-padding {
+        padding-top: 10rem;
     }
 
     &--large-bottom-padding {
-        padding: 3rem 0 10rem; 
+        padding-bottom: 10rem; 
     }    
 
     &--centered {
@@ -59,13 +67,17 @@ body {
     }
 
     &--engagement-banner {
-        background: $color-dark-grey center / cover no-repeat url("../img/bucks-wedding-photographer-eng-rings.jpg");
-        padding: 18rem 0; 
+        background: $color-dark-grey center / cover no-repeat url("../img/bucks-wedding-photographer-eng-rings.jpg"); 
+        text-align: center; 
     }
 
     &--social {
         background: $color-dark-grey;   
     }
+}
+
+.opaque-background {
+    background: rgba($color-black, .4);
 }
 
 .social-list {

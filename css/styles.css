@@ -27,21 +27,36 @@ body {
   .col-card > p {
     margin-bottom: 2.8rem; }
 
-.section--large-padding {
-  padding: 10rem 0 3rem; }
+.section--small-top-padding {
+  padding-top: 3rem; }
+
+.section--small-bottom-padding {
+  padding-bottom: 3rem; }
+
+.section--medium-top-padding {
+  padding-top: 6rem; }
+
+.section--medium-top-padding {
+  padding-bottom: 6rem; }
+
+.section--large-top-padding {
+  padding-top: 10rem; }
 
 .section--large-bottom-padding {
-  padding: 3rem 0 10rem; }
+  padding-bottom: 10rem; }
 
 .section--centered {
   text-align: center; }
 
 .section--engagement-banner {
   background: #d6d6d6 center/cover no-repeat url("../img/bucks-wedding-photographer-eng-rings.jpg");
-  padding: 18rem 0; }
+  text-align: center; }
 
 .section--social {
   background: #d6d6d6; }
+
+.opaque-background {
+  background: rgba(0, 0, 0, 0.4); }
 
 .social-list {
   display: flex;
@@ -89,8 +104,10 @@ h1, h2, h3 {
 
 .banner-heading {
   color: #ffffff;
+  display: inline-block;
   font-size: 2.8rem;
-  letter-spacing: 0.6rem; }
+  letter-spacing: 0.6rem;
+  margin: 20rem 0; }
 
 .social-list__icon {
   background: #222222;
@@ -117,12 +134,14 @@ h1, h2, h3 {
 
 .button {
   display: inline-block;
+  letter-spacing: 0.2rem;
   text-transform: uppercase; }
   .button--white {
     background: #ffffff;
     border: 2px solid #000000;
     color: #000000;
     font-size: 1.5rem;
+    margin-top: 3rem;
     padding: 2rem 3.5rem; }
     .button--white:hover {
       background: #000000;
@@ -132,7 +151,6 @@ h1, h2, h3 {
     background: #000000;
     color: #ffffff;
     font-size: 1.3rem;
-    letter-spacing: 0.2rem;
     padding: 1.3rem 3.2rem; }
     .button--black:hover {
       background: rgba(0, 0, 0, 0.6);
