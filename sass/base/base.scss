@@ -20,12 +20,22 @@ body {
     padding: 1.3rem 0;
 }
 
+.logo-img {
+    width: 70%;
+}
+
+// navigation
 .navbar {
     background: none !important; 
 }
 
-.logo-img {
-    width: 70%;
+.dropdown-menu {
+    background: $color-black;
+}
+
+.dropdown-item {
+    background: $color-black;
+    color: $color-white;
 }
 
 .col-card {

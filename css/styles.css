@@ -16,11 +16,18 @@ body {
   height: 68vh;
   padding: 1.3rem 0; }
 
+.logo-img {
+  width: 70%; }
+
 .navbar {
   background: none !important; }
 
-.logo-img {
-  width: 70%; }
+.dropdown-menu {
+  background: #000000; }
+
+.dropdown-item {
+  background: #000000;
+  color: #ffffff; }
 
 .col-card {
   text-align: center; }
