@@ -10,7 +10,7 @@ h1 {
     text-transform: uppercase;
     font-size: 2.8rem;
     letter-spacing: .7rem;
-    margin-top: 13rem;
+    margin-top: 13rem; 
 }
 
 h2 {
@@ -70,6 +70,10 @@ h1, h2, h3 {
         color: $color-dark-grey; 
         font-size: 1.7rem; 
     }  
+}
+
+.button-container {
+    text-align: center;
 }
 
 .footer {

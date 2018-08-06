@@ -22,11 +22,16 @@ body {
 .logo-img {
   width: 70%; }
 
+.col-card {
+  text-align: center; }
+  .col-card > p {
+    margin-bottom: 2.8rem; }
+
 .section--large-padding {
   padding: 10rem 0 3rem; }
 
 .section--large-bottom-padding {
-  padding: 1rem 0 10rem; }
+  padding: 3rem 0 10rem; }
 
 .section--centered {
   text-align: center; }
@@ -103,9 +108,33 @@ h1, h2, h3 {
   color: #d6d6d6;
   font-size: 1.7rem; }
 
+.button-container {
+  text-align: center; }
+
 .footer {
   color: #ffffff;
   text-align: center; }
 
 .button {
-  background: #000000; }
+  display: inline-block;
+  text-transform: uppercase; }
+  .button--white {
+    background: #ffffff;
+    border: 2px solid #000000;
+    color: #000000;
+    font-size: 1.5rem;
+    padding: 2rem 3.5rem; }
+    .button--white:hover {
+      background: #000000;
+      color: #ffffff;
+      text-decoration: none; }
+  .button--black {
+    background: #000000;
+    color: #ffffff;
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+    padding: 1.3rem 3.2rem; }
+    .button--black:hover {
+      background: rgba(0, 0, 0, 0.6);
+      color: #ffffff;
+      text-decoration: none; }
