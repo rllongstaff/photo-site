@@ -33,6 +33,9 @@ body {
   text-align: center; }
   .col-card > p {
     margin-bottom: 2.8rem; }
+  @media (max-width: 991.98px) {
+    .col-card {
+      margin-bottom: 5rem; } }
 
 .section--small-top-padding {
   padding-top: 3rem; }
@@ -75,6 +78,9 @@ body {
 .footer {
   background: #000000;
   padding: 6rem 0; }
+
+.footer-list__item {
+  margin-bottom: 2rem; }
 
 body {
   color: #4a4a4a;
@@ -138,6 +144,9 @@ h1, h2, h3 {
 .footer {
   color: #ffffff;
   text-align: center; }
+
+.footer-list__link:link, .footer-list__link:visited {
+  color: #ffffff; }
 
 .button {
   display: inline-block;

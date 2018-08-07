@@ -75,10 +75,18 @@ h1, h2, h3 {
 }
 
 .button-container {
-    text-align: center;
+    text-align: center; 
 }
 
 .footer {
     color: $color-white; 
     text-align: center;
+}
+
+.footer-list {
+
+    &__link:link,  
+    &__link:visited {
+        color: $color-white; 
+    }
 }
