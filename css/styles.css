@@ -13,8 +13,10 @@ body {
 
 .header {
   background: #000000 center/cover no-repeat url("../img/gcbrideandgroom.jpg");
-  height: 68vh;
-  padding: 1.3rem 0; }
+  height: 68vh; }
+  @media (max-width: 767.98px) {
+    .header {
+      height: 25vh; } }
 
 .logo-img {
   width: 100%; }
@@ -38,6 +40,10 @@ body {
 
 .navbar-collapse {
   flex-basis: 100% !important; }
+  @media (max-width: 767.98px) {
+    .navbar-collapse {
+      background: #000000;
+      z-index: 2; } }
 
 .dropdown-menu {
   background: #000000; }
@@ -86,7 +92,8 @@ body {
   background: #d6d6d6; }
 
 .opaque-background {
-  background: rgba(0, 0, 0, 0.4); }
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%; }
 
 .social-list {
   display: flex;
@@ -113,7 +120,7 @@ h1 {
   text-transform: uppercase;
   font-size: 2.8rem;
   letter-spacing: .7rem;
-  margin-top: 13rem; }
+  margin-top: 3rem; }
 
 h2 {
   font-size: 2.5rem;
@@ -144,6 +151,9 @@ h1, h2, h3 {
   font-size: 2.8rem;
   letter-spacing: 0.6rem;
   margin: 20rem 0; }
+  @media (max-width: 767.98px) {
+    .banner-heading {
+      margin: 5rem 0; } }
 
 .social-list__icon {
   background: #222222;

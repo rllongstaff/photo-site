@@ -16,8 +16,11 @@ body {
 
 .header {
     background: $color-black center / cover no-repeat url("../img/gcbrideandgroom.jpg");
-    height: 68vh;
-    padding: 1.3rem 0;
+    height: 68vh; 
+
+    @media (max-width: 767.98px) {
+        height: 25vh;
+    }     
 }
 
 .logo-img {
@@ -49,6 +52,11 @@ body {
 
 .navbar-collapse {
     flex-basis: 100% !important;  
+
+    @media (max-width: 767.98px) {
+        background: $color-black;
+        z-index: 2;
+    }
 }
 
 .dropdown-menu {
@@ -121,6 +129,7 @@ body {
 
 .opaque-background {
     background: rgba($color-black, .4);
+    height: 100%;
 }
 
 .social-list {
