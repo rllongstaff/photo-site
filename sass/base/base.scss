@@ -21,12 +21,34 @@ body {
 }
 
 .logo-img {
-    width: 70%;
+    width: 100%;
 }
 
 // navigation
 .navbar {
     background: none !important; 
+}
+
+.navbar-brand {
+    width: 30%; 
+
+    @media (max-width: 767.98px) {
+        width: 50%;
+    }    
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: $color-white;
+    color: $color-white;
+    font-size: 1.65rem; 
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-collapse {
+    flex-basis: 100% !important;  
 }
 
 .dropdown-menu {
@@ -36,6 +58,12 @@ body {
 .dropdown-item {
     background: $color-black;
     color: $color-white;
+
+    &:active,
+    &:hover {
+        background: $color-black-icons;
+        color: $color-white;
+    }
 }
 
 .col-card {
