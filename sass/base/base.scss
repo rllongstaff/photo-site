@@ -56,6 +56,12 @@ body {
     @media (max-width: 767.98px) {
         background: $color-black;
         z-index: 2;
+
+        position: absolute;
+        top: 6rem;
+        left: 1rem;
+        width: 95%;
+        padding: 1rem;        
     }
 }
 
