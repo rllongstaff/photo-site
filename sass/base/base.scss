@@ -15,12 +15,19 @@ body {
 }
 
 .header {
-    background: $color-black center / cover no-repeat url("../img/gcbrideandgroom.jpg");
     height: 68vh; 
 
     @media (max-width: 767.98px) {
         height: 30vh;
-    }     
+    }   
+    
+    &--home {
+        background: $color-black center / cover no-repeat url("../img/gcbrideandgroom.jpg");        
+    }
+
+    &--weddings {
+        background: $color-black center / cover no-repeat url("../img/berkshire_wedding_photographer_GJ_Full.jpg");
+    }
 }
 
 .logo-img {
@@ -130,6 +137,11 @@ body {
     &--engagement-banner {
         background: $color-dark-grey center / cover no-repeat url("../img/bucks-wedding-photographer-eng-rings.jpg"); 
         text-align: center; 
+    }
+
+    &--get-in-touch-banner {
+        background: $color-dark-grey center / cover no-repeat url("../img/bucksengagementphotography-3.jpg");
+        text-align: center;
     }
 
     &--social {
