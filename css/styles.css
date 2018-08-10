@@ -70,19 +70,16 @@ body {
     color: #ffffff; }
 
 .col {
-  align-self: center;
-  margin: 3rem 0; }
+  margin: 3rem 0;
+  text-align: center; }
+  .col > p {
+    margin-bottom: 2.8rem; }
 
 .col > img {
   width: 100%; }
 
-.col-card {
-  text-align: center; }
-  .col-card > p {
-    margin-bottom: 2.8rem; }
-  @media (max-width: 991.98px) {
-    .col-card {
-      margin-bottom: 5rem; } }
+.gallery-col {
+  align-self: center; }
 
 .section--centered {
   text-align: center; }
@@ -138,6 +135,9 @@ body {
       .main-heading--header {
         font-size: 1.8rem;
         margin-top: 3rem; } }
+  .main-heading > small {
+    display: block;
+    font-size: 2.4rem; }
 
 h2 {
   font-size: 2.5rem;

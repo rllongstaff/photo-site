@@ -96,25 +96,20 @@ body {
 } 
 
 .col {
-    align-self: center; 
     margin: 3rem 0;  
+    text-align: center;
+
+    & > p {
+        margin-bottom: 2.8rem;   
+    }    
 }
 
 .col > img {
     width: 100%;   
 }
 
-.col-card {
-    text-align: center;
-
-    & > p {
-        margin-bottom: 2.8rem; 
-    }
-
-    // everything up to this with will have a margin of 5rems applied to it's bottom
-    @media (max-width: 991.98px) {
-        margin-bottom: 5rem;
-    }    
+.gallery-col {
+    align-self: center; 
 }
 
 .section {
