@@ -11,15 +11,21 @@ html {
 body {
   box-sizing: border-box; }
 
-.header {
-  height: 68vh; }
+.header--banner {
+  height: 56vh; }
   @media (max-width: 767.98px) {
-    .header {
+    .header--banner {
       height: 30vh; } }
-  .header--home {
-    background: #000000 center/cover no-repeat url("../img/gcbrideandgroom.jpg"); }
-  .header--weddings {
-    background: #000000 center/cover no-repeat url("../img/berkshire_wedding_photographer_GJ_Full.jpg"); }
+
+.header--plain {
+  background: #201a16;
+  height: 15vh; }
+
+.header--home {
+  background: #201a16 center/cover no-repeat url("../img/gcbrideandgroom.jpg"); }
+
+.header--weddings {
+  background: #201a16 center/cover no-repeat url("../img/berkshire_wedding_photographer_GJ_Full.jpg"); }
 
 .logo-img {
   width: 100%; }
@@ -63,6 +69,13 @@ body {
     background: #222222;
     color: #ffffff; }
 
+.col {
+  align-self: center;
+  margin: 3rem 0; }
+
+.col > img {
+  width: 100%; }
+
 .col-card {
   text-align: center; }
   .col-card > p {
@@ -71,29 +84,14 @@ body {
     .col-card {
       margin-bottom: 5rem; } }
 
-.section--small-top-padding {
-  padding-top: 3rem; }
-
-.section--small-bottom-padding {
-  padding-bottom: 3rem; }
-
-.section--medium-top-padding {
-  padding-top: 6rem; }
-
-.section--medium-top-padding {
-  padding-bottom: 6rem; }
-
-.section--large-top-padding {
-  padding-top: 10rem; }
-  @media (max-width: 767.98px) {
-    .section--large-top-padding {
-      padding-top: 3rem; } }
-
-.section--large-bottom-padding {
-  padding-bottom: 10rem; }
-
 .section--centered {
   text-align: center; }
+
+.section--large-padding {
+  padding: 10rem 0 3rem; }
+  @media (max-width: 767.98px) {
+    .section--large-padding {
+      padding-top: 3rem; } }
 
 .section--engagement-banner {
   background: #d6d6d6 center/cover no-repeat url("../img/bucks-wedding-photographer-eng-rings.jpg");
@@ -130,16 +128,16 @@ body {
   font-size: 1.8rem;
   letter-spacing: 0.05rem; }
 
-h1 {
-  color: #ffffff;
-  text-transform: uppercase;
+.main-heading {
   font-size: 2.8rem;
-  letter-spacing: .7rem;
-  margin-top: 13rem; }
-  @media (max-width: 767.98px) {
-    h1 {
-      font-size: 1.8rem;
-      margin-top: 3rem; } }
+  letter-spacing: .7rem; }
+  .main-heading--header {
+    color: #ffffff;
+    margin-top: 13rem; }
+    @media (max-width: 767.98px) {
+      .main-heading--header {
+        font-size: 1.8rem;
+        margin-top: 3rem; } }
 
 h2 {
   font-size: 2.5rem;

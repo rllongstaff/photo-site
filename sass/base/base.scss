@@ -15,18 +15,26 @@ body {
 }
 
 .header {
-    height: 68vh; 
 
-    @media (max-width: 767.98px) {
-        height: 30vh;
-    }   
-    
+    &--banner {
+        height: 56vh; 
+
+        @media (max-width: 767.98px) {
+            height: 30vh;
+        }       
+    }
+
+    &--plain {
+        background: $color-black-header;
+        height: 15vh;
+    }
+
     &--home {
-        background: $color-black center / cover no-repeat url("../img/gcbrideandgroom.jpg");        
+        background: $color-black-header center / cover no-repeat url("../img/gcbrideandgroom.jpg");        
     }
 
     &--weddings {
-        background: $color-black center / cover no-repeat url("../img/berkshire_wedding_photographer_GJ_Full.jpg");
+        background: $color-black-header center / cover no-repeat url("../img/berkshire_wedding_photographer_GJ_Full.jpg");
     }
 }
 
@@ -80,11 +88,20 @@ body {
     background: $color-black;
     color: $color-white;
 
-    &:active,
-    &:hover {
+    &:active,     
+    &:hover { 
         background: $color-black-icons;
         color: $color-white;
     }
+} 
+
+.col {
+    align-self: center; 
+    margin: 3rem 0;  
+}
+
+.col > img {
+    width: 100%;   
 }
 
 .col-card {
@@ -102,36 +119,16 @@ body {
 
 .section {
 
-    &--small-top-padding {
-        padding-top: 3rem;
+    &--centered {
+        text-align: center;
     }
 
-    &--small-bottom-padding {
-        padding-bottom: 3rem;
-    }
-
-    &--medium-top-padding {
-        padding-top: 6rem;
-    }
-
-    &--medium-top-padding {
-        padding-bottom: 6rem;
-    }
-
-    &--large-top-padding {
-        padding-top: 10rem;
+    &--large-padding {
+        padding: 10rem 0 3rem;
 
         @media (max-width: 767.98px) {
             padding-top: 3rem; 
-        }        
-    }
-
-    &--large-bottom-padding {
-        padding-bottom: 10rem;         
-    }    
-
-    &--centered {
-        text-align: center;
+        }           
     }
 
     &--engagement-banner {
@@ -145,12 +142,12 @@ body {
     }
 
     &--social {
-        background: $color-dark-grey;   
+        background: $color-dark-grey;  
     }
 }
 
 .opaque-background {
-    background: rgba($color-black, .4);
+    background: rgba($color-black, .4); 
     height: 100%;
 }
 
