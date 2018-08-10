@@ -22,10 +22,16 @@ body {
   height: 15vh; }
 
 .header--home {
-  background: #201a16 center/cover no-repeat url("../img/gcbrideandgroom.jpg"); }
+  background: #201a16 center/cover no-repeat url("../img/banners/gcbrideandgroom.jpg"); }
 
 .header--weddings {
-  background: #201a16 center/cover no-repeat url("../img/berkshire_wedding_photographer_GJ_Full.jpg"); }
+  background: #201a16 center/cover no-repeat url("../img/banners/berkshire_wedding_photographer_GJ_Full.jpg"); }
+
+.header--choose-photographer {
+  background: #201a16 center/cover no-repeat url("../img/banners/buckinghamhire-wedding-photography-ll-table.jpg"); }
+
+.header--bucks-wedding-photography {
+  background: #201a16 center/cover no-repeat url("../img/banners/berkshire_wedding_photographer_GJ_Full.jpg"); }
 
 .logo-img {
   width: 100%; }
@@ -91,11 +97,11 @@ body {
       padding-top: 3rem; } }
 
 .section--engagement-banner {
-  background: #d6d6d6 center/cover no-repeat url("../img/bucks-wedding-photographer-eng-rings.jpg");
+  background: #d6d6d6 center/cover no-repeat url("../img/banners/bucks-wedding-photographer-eng-rings.jpg");
   text-align: center; }
 
 .section--get-in-touch-banner {
-  background: #d6d6d6 center/cover no-repeat url("../img/bucksengagementphotography-3.jpg");
+  background: #d6d6d6 center/cover no-repeat url("../img/banners/bucksengagementphotography-3.jpg");
   text-align: center; }
 
 .section--social {
