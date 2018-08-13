@@ -111,6 +111,10 @@ body {
   background: rgba(0, 0, 0, 0.4);
   height: 100%; }
 
+.form-control {
+  background: #fafafa;
+  height: calc(3.25rem + 2px); }
+
 .social-list {
   display: flex;
   list-style: none;
@@ -183,6 +187,9 @@ h1, h2, h3 {
     .banner-heading {
       margin: 5rem 0; } }
 
+.form-control {
+  font-size: 1.5rem; }
+
 .social-list__icon {
   background: #222222;
   border-radius: 1.7rem;
@@ -226,6 +233,7 @@ h1, h2, h3 {
       text-decoration: none; }
   .button--black {
     background: #000000;
+    border: none;
     color: #ffffff;
     font-size: 1.3rem;
     padding: 1.3rem 3.2rem; }

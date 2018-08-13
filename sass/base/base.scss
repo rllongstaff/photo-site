@@ -154,6 +154,11 @@ body {
     height: 100%;
 }
 
+.form-control {
+    background: #fafafa;
+    height: calc(3.25rem + 2px);
+}
+
 .social-list {
     display: flex;
     list-style: none;
