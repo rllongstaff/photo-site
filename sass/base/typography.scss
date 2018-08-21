@@ -12,11 +12,11 @@ h1, h2, h3 {
 }
 
 .main-heading {
-    font-size: 7.5rem; 
     letter-spacing: .7rem;    
 
     &--header {
         color: $color-white;
+        font-size: 7.5rem; 
         margin-top: 13rem;   
         
         @media (max-width: 767.98px) { 
@@ -26,7 +26,7 @@ h1, h2, h3 {
     }
 
     &--content {
-
+        font-size: 2.5rem; 
     }
 
     & > small {

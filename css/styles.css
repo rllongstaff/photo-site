@@ -160,15 +160,17 @@ h1, h2, h3 {
   font-weight: 300; }
 
 .main-heading {
-  font-size: 7.5rem;
   letter-spacing: .7rem; }
   .main-heading--header {
     color: #ffffff;
+    font-size: 7.5rem;
     margin-top: 13rem; }
     @media (max-width: 767.98px) {
       .main-heading--header {
         font-size: 4.5rem;
         margin-top: 3rem; } }
+  .main-heading--content {
+    font-size: 2.5rem; }
   .main-heading > small {
     display: block;
     font-size: 2.4rem; }
