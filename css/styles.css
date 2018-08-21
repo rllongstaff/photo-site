@@ -65,6 +65,10 @@ body {
       width: 95%;
       padding: 1rem; } }
 
+@media (max-width: 767.98px) {
+  .navbar-nav {
+    align-items: flex-end; } }
+
 .dropdown-menu {
   background: #000000; }
 
@@ -107,8 +111,11 @@ body {
 .section--social {
   background: #d6d6d6; }
 
+.uppercase {
+  text-transform: uppercase; }
+
 .opaque-background {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(46, 46, 46, 0.5);
   height: 100%; }
 
 .form-control {
@@ -140,14 +147,14 @@ h1, h2, h3 {
   font-weight: 300; }
 
 .main-heading {
-  font-size: 2.8rem;
+  font-size: 7.5rem;
   letter-spacing: .7rem; }
   .main-heading--header {
     color: #ffffff;
     margin-top: 13rem; }
     @media (max-width: 767.98px) {
       .main-heading--header {
-        font-size: 1.8rem;
+        font-size: 4.5rem;
         margin-top: 3rem; } }
   .main-heading > small {
     display: block;

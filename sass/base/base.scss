@@ -88,6 +88,12 @@ body {
     }
 }
 
+.navbar-nav {
+    @media (max-width: 767.98px) {
+        align-items: flex-end;
+    }
+}
+
 .dropdown-menu {
     background: $color-black;
 }
@@ -145,17 +151,21 @@ body {
     }
 
     &--social {
-        background: $color-dark-grey;  
+        background: $color-dark-grey;   
     }
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 .opaque-background {
-    background: rgba($color-black, .4); 
+    background: rgba($color-black-overlay, .5);  
     height: 100%;
 }
 
 .form-control {
-    background: #fafafa;
+    background: #fafafa; 
     height: calc(3.25rem + 2px);
 }
 
