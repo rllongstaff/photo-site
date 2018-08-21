@@ -94,8 +94,18 @@ body {
     }
 }
 
+.dropdown {
+    @media (max-width: 767.98px) {
+        text-align: right;
+    }        
+}
+
 .dropdown-menu {
     background: $color-black;
+
+    @media (max-width: 767.98px) {
+        text-align: right;
+    }    
 }
 
 .dropdown-item {
