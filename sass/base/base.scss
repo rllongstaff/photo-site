@@ -119,6 +119,15 @@ body {
     }
 } 
 
+.contact-link {
+    border: 2px solid $color-white;
+
+    &:hover {
+        background: $color-white;
+        color: $color-black;
+    }
+}
+
 .col {
     margin: 3rem 0;  
     text-align: center;

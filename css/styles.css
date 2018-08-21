@@ -86,6 +86,12 @@ body {
     background: #222222;
     color: #ffffff; }
 
+.contact-link {
+  border: 2px solid #ffffff; }
+  .contact-link:hover {
+    background: #ffffff;
+    color: #000000; }
+
 .col {
   margin: 3rem 0;
   text-align: center; }
