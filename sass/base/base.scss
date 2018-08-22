@@ -159,6 +159,22 @@ body {
         text-align: center;
     }
 
+    &--small-padding {
+        padding: 3rem 0;
+
+        @media (max-width: 767.98px) {
+            padding-top: 1.5rem;  
+        }           
+    }
+
+    &--medium-padding {
+        padding: 6rem 0 3rem;
+
+        @media (max-width: 767.98px) {
+            padding-top: 2rem;  
+        }            
+    }
+
     &--large-padding {
         padding: 10rem 0 3rem;
 
@@ -186,6 +202,10 @@ body {
     &--social {
         background: $color-dark-grey;   
     }
+}
+
+.carousel-control {
+    background: rgba($color-black-overlay, .3);
 }
 
 .text-slides {
