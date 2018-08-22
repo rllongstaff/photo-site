@@ -143,6 +143,9 @@ body {
   background: #d6d6d6;
   height: 35rem;
   padding: 7rem 0; }
+  @media (max-width: 767.98px) {
+    .section--testimonials {
+      height: auto; } }
 
 .section--social {
   background: #d6d6d6; }
