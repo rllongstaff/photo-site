@@ -119,12 +119,14 @@ body {
     }
 } 
 
-.contact-link {
+.contact-item > .nav-link {
     border: 2px solid $color-white;
+    padding: 0 1.5rem; 
 
+    &:active,
     &:hover {
         background: $color-white;
-        color: $color-black;
+        color: $color-black !important;
     }
 }
 

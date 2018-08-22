@@ -86,11 +86,12 @@ body {
     background: #222222;
     color: #ffffff; }
 
-.contact-link {
-  border: 2px solid #ffffff; }
-  .contact-link:hover {
+.contact-item > .nav-link {
+  border: 2px solid #ffffff;
+  padding: 0 1.5rem; }
+  .contact-item > .nav-link:active, .contact-item > .nav-link:hover {
     background: #ffffff;
-    color: #000000; }
+    color: #000000 !important; }
 
 .col {
   margin: 3rem 0;
@@ -247,6 +248,7 @@ h1, h2, h3 {
   color: #ffffff; }
 
 .button {
+  cursor: pointer;
   display: inline-block;
   letter-spacing: 0.2rem;
   text-transform: uppercase; }
