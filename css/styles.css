@@ -121,8 +121,16 @@ body {
   background: #d6d6d6 center/cover no-repeat url("../img/banners/bucksengagementphotography-3.jpg");
   text-align: center; }
 
+.section--testimonials {
+  background: #d6d6d6;
+  height: 35rem;
+  padding: 7rem 0; }
+
 .section--social {
   background: #d6d6d6; }
+
+.text-slides {
+  padding: 0 5rem; }
 
 .uppercase {
   text-transform: uppercase; }
