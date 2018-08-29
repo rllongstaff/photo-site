@@ -204,7 +204,7 @@
                 $email=$_REQUEST['email'];
                 $telephone=$_REQUEST['telephone'];
                 $message=$_REQUEST['message'];
-                $body=$telephone;
+                //$body=$telephone;
 
                 if (($name=="")||($email=="")||($telephone=="")||($message==""))
                     {
