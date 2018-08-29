@@ -245,6 +245,9 @@ h3 {
 h1, h2, h3 {
   text-align: center; }
 
+.navbar-nav {
+  font-size: 1.6rem; }
+
 .navbar-nav .nav-link:link, .navbar-nav .nav-link:visited {
   color: #ffffff;
   text-transform: uppercase; }
