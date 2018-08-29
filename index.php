@@ -218,8 +218,7 @@
                     }
                 }  
             ?>  
-            
-            <?php phpinfo(); ?>
+        
         </section>        
     </div>
 
