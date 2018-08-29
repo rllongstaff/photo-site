@@ -162,7 +162,7 @@
         </div>            
     </section>
     <div class="container">
-        <section class="section section--large-padding">
+        <section class="section section--large-padding" id="contact">
             <h1>Contact Us</h1>
             <p>For bookings and enquiries, please use the form below. I specialise in wedding photography and offer services all over the U.K.</p>    
             
@@ -172,7 +172,7 @@
                 {
                 ?>            
             
-            <form>
+            <form action="#contact" method="POST" enctype="multipart/form-data">
                 <div class="form-group">
                     <label for="name">Name *</label>
                     <input type="input" class="form-control" name="name" id="name" aria-describedby="emailHelp" placeholder="Enter name" required>
@@ -210,7 +210,7 @@
                 else{		
                     $from="From: $name<$email>\r\nReturn-path: $email";
                     $subject="Message sent using your contact form";
-                    mail("enquiry@russelllongstaff.com", $subject, $telephone, $message, $from);
+                    mail("info@gregorycusickphotography.co.uk", $subject, $telephone, $message, $from);
                     echo '<p class="paragraph form-feedback">Thank you! <br>Your email has been sent. <br>I will be in touch shortly.</p>';
                     }
                 }  
