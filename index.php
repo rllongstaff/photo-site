@@ -173,6 +173,7 @@
                 ?>            
             
             <form action="#contact" method="POST" enctype="multipart/form-data">
+                <input type="hidden" name="action" value="submit">
                 <div class="form-group">
                     <label for="name">Name *</label>
                     <input type="input" class="form-control" name="name" id="name" aria-describedby="emailHelp" placeholder="Enter name" required>
