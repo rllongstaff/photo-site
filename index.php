@@ -202,7 +202,7 @@
                 {
                 $name=$_REQUEST['name'];
                 $email=$_REQUEST['email'];
-                $telephone =$_REQUEST['telephone'];
+                $telephone=$_REQUEST['telephone'];
                 $message=$_REQUEST['message'];
                 if (($name=="")||($email=="")||($telephone=="")||($message==""))
                     {
