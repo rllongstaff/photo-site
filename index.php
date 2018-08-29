@@ -214,7 +214,7 @@
                     $subject="Message sent using your contact form";
                     //$body="Telephone: $telephone\r\n Message: $message";     
                     $from="From: $name<$email>\r\nReturn-path: $email";                                    
-                    mail("info@gregorycusickphotography.co.uk", $subject, $body, $from);
+                    mail("info@gregorycusickphotography.co.uk", $subject, $message, $from);
                     echo '<p class="paragraph form-feedback">Thank you! <br>Your email has been sent. <br>I will be in touch shortly.</p>';
                     }
                 }  
