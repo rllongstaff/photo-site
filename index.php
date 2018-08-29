@@ -208,10 +208,11 @@
                     {
                     echo "All fields are required, please fill <a href=\"\">the form</a> again.";
                     }
-                else{		
+                else{	
+                    //info@gregorycusickphotography.co.uk	
                     $from="From: $name<$email>\r\nReturn-path: $email";
                     $subject="Message sent using your contact form";
-                    mail("info@gregorycusickphotography.co.uk", $subject, $telephone, $message, $from);
+                    mail("russell.longstaff@gmail.com", $subject, $telephone, $message, $from);
                     echo '<p class="paragraph form-feedback">Thank you! <br>Your email has been sent. <br>I will be in touch shortly.</p>';
                     }
                 }  
