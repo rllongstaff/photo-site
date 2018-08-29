@@ -204,14 +204,16 @@
                 $email=$_REQUEST['email'];
                 $telephone=$_REQUEST['telephone'];
                 $message=$_REQUEST['message'];
+
                 if (($name=="")||($email=="")||($telephone=="")||($message==""))
                     {
                     echo "All fields are required, please fill <a href=\"\">the form</a> again.";
                     }
                 else{	
+                    //$telephone,
                     $from="From: $name<$email>\r\nReturn-path: $email";
                     $subject="Message sent using your contact form";
-                    mail("info@gregorycusickphotography.co.uk", $subject, $telephone, $message, $from);
+                    mail("info@gregorycusickphotography.co.uk", $subject, $message, $from);
                     echo '<p class="paragraph form-feedback">Thank you! <br>Your email has been sent. <br>I will be in touch shortly.</p>';
                     }
                 }  
