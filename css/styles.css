@@ -54,7 +54,17 @@ body {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
 
 .navbar-collapse {
-  flex-basis: 100% !important; }
+  flex-basis: 100% !important;
+  justify-content: flex-end; }
+  @media (max-width: 991.98px) {
+    .navbar-collapse {
+      background: #000000;
+      z-index: 2;
+      position: absolute;
+      top: 6rem;
+      left: 1rem;
+      width: 97%;
+      padding: 1rem; } }
   @media (max-width: 767.98px) {
     .navbar-collapse {
       background: #000000;
@@ -64,6 +74,10 @@ body {
       left: 1rem;
       width: 95%;
       padding: 1rem; } }
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    align-items: flex-end; } }
 
 @media (max-width: 767.98px) {
   .navbar-nav {
