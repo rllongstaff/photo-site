@@ -197,7 +197,7 @@ body {
 
     &--testimonials {
         background: $color-dark-grey;
-        height: 35rem;
+        height: 36rem; 
         padding: 7rem 0;
 
         @media (max-width: 767.98px) {
@@ -210,17 +210,13 @@ body {
     }
 }
 
-.carousel-item {
-    margin: 0 auto; 
-    width: 70%;
-}
-
 .carousel-control {
     background: rgba($color-black-overlay, .3);
 }
 
-.text-slides {
-    padding: 0 5rem;
+.testimonial {
+    margin: 0 auto;
+    width: 80%;
 }
 
 .uppercase {

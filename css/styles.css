@@ -144,7 +144,7 @@ body {
 
 .section--testimonials {
   background: #d6d6d6;
-  height: 35rem;
+  height: 36rem;
   padding: 7rem 0; }
   @media (max-width: 767.98px) {
     .section--testimonials {
@@ -153,15 +153,12 @@ body {
 .section--social {
   background: #d6d6d6; }
 
-.carousel-item {
-  margin: 0 auto;
-  width: 70%; }
-
 .carousel-control {
   background: rgba(46, 46, 46, 0.3); }
 
-.text-slides {
-  padding: 0 5rem; }
+.testimonial {
+  margin: 0 auto;
+  width: 80%; }
 
 .uppercase {
   text-transform: uppercase; }
@@ -216,7 +213,7 @@ h1, h2, h3 {
         font-size: 4.5rem;
         margin-top: 3rem; } }
   .main-heading--content {
-    font-size: 2.5rem; }
+    font-size: 3.2rem; }
   .main-heading > small {
     display: block;
     font-size: 2.8rem;
