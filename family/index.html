@@ -108,20 +108,25 @@
         <section class="section--engagement section--large-top-padding section--large-bottom-padding">
             <h2>Information</h2>
             <p>Our Family packages cover Newborn, Child and Family photography. There are no limits to the number of people in our sessions which last for up to 1.5hrs, with a range of packages to suit your needs. If you love our style and would like to know more, please use the form below so that we can discuss creating some beautiful imagery for you and your family.</p>    
-            <form>
+            <form  class="form" action="#contact" method="POST" enctype="multipart/form-data">
+                <input type="hidden" name="action" value="submit">
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Name *</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    <label for="name">Name *</label>
+                    <input type="input" class="form-control" name="name" id="name" aria-describedby="emailHelp" placeholder="Enter name" required>
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <label for="email">Email Address *</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" required>
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>                    
+                </div>                
+                <div class="form-group">
+                    <label for="telephone">Telephone Number *</label>
+                    <input type="input" class="form-control form-control-lg" name="telephone" id="telephone" placeholder="Enter telephone number" required>
                 </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea class="form-control" name="message" id="message" rows="3" required></textarea>
+                    </div>                
                 <div class="button-container">
                     <button type="submit" class="button button--black">Send Message</button>
                 </div>

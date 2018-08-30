@@ -134,23 +134,24 @@
         <section class="section--engagement section--large-padding">
             <h2>Get in touch</h2>
             <p>If you have an event or wedding in Bucks, Berks, Herts or anywhere in the U.K, we'd love to hear from you. Please use the form below to make an enquiry.</p>    
-            <form>
+            <form  class="form" action="#contact" method="POST" enctype="multipart/form-data">
+                <input type="hidden" name="action" value="submit">
                 <div class="form-group">
                     <label for="name">Name *</label>
-                    <input type="input" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name">
+                    <input type="input" class="form-control" name="name" id="name" aria-describedby="emailHelp" placeholder="Enter name" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Email Address *</label>
-                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" required>
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>                    
                 </div>                
                 <div class="form-group">
                     <label for="telephone">Telephone Number *</label>
-                    <input type="input" class="form-control form-control-lg" id="telephone" placeholder="Enter telephone number">
+                    <input type="input" class="form-control form-control-lg" name="telephone" id="telephone" placeholder="Enter telephone number" required>
                 </div>
                 <div class="form-group">
                     <label for="message">Message *</label>
-                    <textarea class="form-control" id="message" rows="3"></textarea>
+                    <textarea class="form-control" name="message" id="message" rows="3" required></textarea>
                     </div>                
                 <div class="button-container">
                     <button type="submit" class="button button--black">Send Message</button>
