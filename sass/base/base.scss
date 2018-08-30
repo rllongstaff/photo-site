@@ -106,19 +106,33 @@ body {
     }
 
     @media (max-width: 767.98px) {
-        align-items: flex-end;
+        align-items: flex-end; 
     }
 }
 
+.navbar-dark .navbar-nav .nav-link {  
+    margin: 0 1rem; 
+    
+    @media (max-width: 1199.98px) {
+        margin: 0 .5rem; 
+    }   
+}
+
 .dropdown {
-    @media (max-width: 767.98px) {
-        text-align: right;
-        width: 100%; 
+
+    @media (max-width: 767.98px) {    
+        text-align: right; 
+        width: 100%;       
     }        
 }
 
-.dropdown-menu {
+.dropdown-menu {  
     background: $color-black;
+    left: -56px;
+
+    @media (max-width: 991.98px) { 
+        left: -56px;
+    }    
 
     @media (max-width: 767.98px) {
         text-align: right;
@@ -143,7 +157,7 @@ body {
 
 .contact-item > .nav-link {
     border: 2px solid $color-white;
-    padding: 0 1.5rem; 
+    padding: .8rem 1rem !important; 
 
     &:active,
     &:hover {
